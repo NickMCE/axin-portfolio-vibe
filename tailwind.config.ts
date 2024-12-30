@@ -60,6 +60,10 @@ export default {
           "0%, 100%": { transform: "translateY(0)" },
           "50%": { transform: "translateY(-10px)" },
         },
+        scroll: {
+          "0%": { transform: "translateY(0)" },
+          "100%": { transform: "translateY(24px)" },
+        },
       },
     },
   },
