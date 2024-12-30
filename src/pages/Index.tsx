@@ -6,12 +6,13 @@ import { Experience } from "@/components/sections/Experience";
 import { Projects } from "@/components/sections/Projects";
 import { Skills } from "@/components/sections/Skills";
 import { Contact } from "@/components/sections/Contact";
-import { Footer } from "@/components/Footer";
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import RetroGrid from "@/components/magicui/retro-grid";
 
 const Index = () => {
   return (
     <div className="relative">
+      <RetroGrid />
       <Hero />
       <About />
       <Education />
@@ -19,7 +20,6 @@ const Index = () => {
       <Projects />
       <Skills />
       <Contact />
-      <Footer />
       
       <Dock>
         <DockIcon
