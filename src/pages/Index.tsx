@@ -7,7 +7,7 @@ import { Projects } from "@/components/sections/Projects";
 import { Skills } from "@/components/sections/Skills";
 import { Contact } from "@/components/sections/Contact";
 import { Footer } from "@/components/Footer";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const Index = () => {
   return (
@@ -39,6 +39,12 @@ const Index = () => {
           label="Email"
         >
           <Mail className="w-full h-full" />
+        </DockIcon>
+        <DockIcon
+          href="tel:+917305539655"
+          label="WhatsApp"
+        >
+          <Phone className="w-full h-full" />
         </DockIcon>
       </Dock>
     </div>
