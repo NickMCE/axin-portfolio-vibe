@@ -13,8 +13,8 @@ export const Dock = ({ children, className }: DockProps) => {
   return (
     <div
       className={cn(
-        "fixed bottom-8 left-1/2 -translate-x-1/2 bg-black/10 backdrop-blur-lg rounded-full p-4 flex items-center gap-4",
-        coolMode && "animate-float bg-primary/20",
+        "fixed bottom-8 left-1/2 -translate-x-1/2 bg-primary/80 backdrop-blur-lg rounded-full p-4 flex items-center gap-4",
+        coolMode && "animate-float bg-primary",
         className
       )}
       onClick={() => setCoolMode(!coolMode)}
