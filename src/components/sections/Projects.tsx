@@ -18,23 +18,23 @@ export const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gray-50">
+    <section id="projects" className="py-20 bg-secondary">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-primary hover:text-primary-accent transition-colors duration-300">
+        <h2 className="text-3xl font-bold mb-8 text-white hover:text-primary-accent transition-colors duration-300">
           Projects
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div
               key={project.title}
-              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 animate-fade-in"
+              className="bg-primary/50 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 animate-fade-in"
               style={{ animationDelay: `${index * 150}ms` }}
             >
-              <h3 className="text-xl font-semibold mb-4 hover:text-primary-accent transition-colors duration-300">
+              <h3 className="text-xl font-semibold mb-4 text-white hover:text-primary-accent transition-colors duration-300">
                 {project.title}
               </h3>
               <div className="mb-4">
-                <h4 className="font-medium mb-2">Tools:</h4>
+                <h4 className="font-medium mb-2 text-white">Tools:</h4>
                 <div className="flex flex-wrap gap-2">
                   {project.tools.map((tool) => (
                     <span
@@ -46,7 +46,7 @@ export const Projects = () => {
                   ))}
                 </div>
               </div>
-              <p className="text-gray-700">{project.description}</p>
+              <p className="text-gray-300">{project.description}</p>
             </div>
           ))}
         </div>

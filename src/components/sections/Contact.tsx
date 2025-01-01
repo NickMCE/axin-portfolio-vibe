@@ -1,12 +1,12 @@
 export const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-gray-50">
+    <section id="contact" className="py-20 bg-secondary">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-primary">Contact</h2>
-        <div className="bg-white p-6 rounded-lg shadow-lg max-w-xl mx-auto">
+        <h2 className="text-3xl font-bold mb-8 text-white">Contact</h2>
+        <div className="bg-primary/50 p-6 rounded-lg shadow-lg max-w-xl mx-auto">
           <div className="space-y-4">
             <div>
-              <h3 className="font-medium text-gray-700">Email</h3>
+              <h3 className="font-medium text-white">Email</h3>
               <a
                 href="mailto:axinricco.07@gmail.com"
                 className="text-primary-accent hover:underline"
@@ -15,7 +15,7 @@ export const Contact = () => {
               </a>
             </div>
             <div>
-              <h3 className="font-medium text-gray-700">Phone</h3>
+              <h3 className="font-medium text-white">Phone</h3>
               <a
                 href="tel:+917305539655"
                 className="text-primary-accent hover:underline"
